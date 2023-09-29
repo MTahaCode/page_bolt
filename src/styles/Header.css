@@ -1,0 +1,29 @@
+.Header 
+{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.Header img
+{
+    width: 18vh;
+    height: auto;
+    object-fit: contain;
+}
+
+.Header a 
+{
+    position: relative;
+    top: -10px;
+    text-decoration: none;
+    color: black;
+    padding: 1vw;
+}
+
+.Header .OrangeButton
+{
+    display: flex;
+    justify-content:end;
+    margin-left: auto;
+}

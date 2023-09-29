@@ -1,0 +1,97 @@
+.Intro
+{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 40px;
+    transition: all 0.5s ease-in-out;
+}
+
+.Intro .Words
+{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+    left: 5vw;
+}
+
+.Intro .Buttons
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Intro .IntroPictures
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.Intro .GirlPic
+{
+    width: 35vw;
+    height: auto;
+    object-fit: contain;
+    border-radius: 30px;
+    align-self: flex-start;
+    max-width: 500px;
+}
+
+.Intro .credit
+{
+    width: 18vw;
+    height: auto;
+    object-fit: contain;
+    position: relative;
+    z-index: 90;
+    bottom: -23vw;
+    right: -150px;
+    border-radius: 20px;
+    align-self: flex-start;
+    max-width: 250px;
+}
+
+.Intro .Boxes
+{
+    width: 14vw;
+    height: auto;
+    object-fit: contain;
+    /* margin-bottom: 300px; */
+    position: relative;
+    z-index: 90;
+    left: -80px;
+    top: -25vh;
+    max-width: 200px;
+}
+
+@media (max-width: 1000px) {
+    .Intro
+    {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+    .IntroPictures
+    {
+        margin: 200px;
+    }
+    .IntroPictures .Boxes
+    {
+        width: 20vw;
+    }
+    .IntroPictures .GirlPic
+    {
+        width: 41vw;
+    }
+    .IntroPictures .credit
+    {
+        width: 24vw;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

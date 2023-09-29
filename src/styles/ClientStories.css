@@ -1,0 +1,90 @@
+.ClientStories
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    /* overflow: hidden; */
+    /* left: 50%; */
+    margin-bottom: 20px;
+    margin-left: 2vw;
+    margin-righT: 2vw;
+    /* width: 300px; */
+    transition: all 0.5s ease-in-out;
+}
+
+.ClientStories .Box
+{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 50vw;
+    align-items: center;
+    height: 45vw;
+    padding: 20px;
+    padding-bottom: 0px;
+    margin-top: 20px;
+}
+
+.ClientStories img
+{
+    width: 60px;
+    position: absolute;
+    /* right: -200px; */
+    transition: transform 0.5s ease-in-out;
+    align-self: flex-start;
+    border-radius: 50%;
+    
+}
+
+.ClientStories .Name
+{
+    position: relative;
+    top: 50px;
+    align-self: flex-start;
+    font-weight: bold;
+}
+
+.ClientStories .ceo
+{
+    position: relative;
+    top: 20px;
+    align-self: flex-start;
+}
+
+.ClientStories .Words
+{
+    width: 100%;
+    font-size: 3.5vw;
+    position: relative;
+    height: 65%;
+    padding: 20px;
+    padding-bottom: 0px;
+    align-items: center;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.Animate
+{
+    animation: Sliding 5s ease-in-out;
+}
+
+@keyframes Sliding {
+    0% 
+    {
+        transform: translateX(200%);
+    }
+    10%
+    {
+        transform: translateX(0);
+    }
+    90%
+    {
+        transform: translateX(0);
+    }
+    100%
+    {
+        transform: translateX(-200%);
+    }
+}

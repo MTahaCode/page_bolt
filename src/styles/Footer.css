@@ -1,0 +1,28 @@
+.Footer
+{
+    background-color: rgb(88, 87, 87);
+    color: white;
+    display: flex;
+    overflow: auto;
+    flex-wrap: wrap;
+    margin-top: 10vw;
+}
+
+.Footer .Column
+{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.Footer .HeadColumn
+{
+    color: red;
+    border: 2px solid red;
+}
+
+.Footer img
+{
+    width: 10vw;
+    margin: 20px;
+}

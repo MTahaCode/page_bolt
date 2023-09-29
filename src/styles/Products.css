@@ -1,0 +1,29 @@
+.Products
+{
+    margin-left: 8vw;
+    margin-right: 8vw;
+    transition: all 0.5s ease-in-out;
+}
+
+.Products .Heading
+{
+    font-size: 5vw;
+    font-weight: 600;
+    text-align: center;
+}
+
+.ProductsBox
+{
+    background-color: rgba(189, 187, 187, 0.355);
+    width: 30vw;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.ProductsBox img
+{
+    border-radius: 60;
+    width: 10vw;
+}
